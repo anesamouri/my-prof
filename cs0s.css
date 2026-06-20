@@ -1,0 +1,218 @@
+body{
+    background-color: grey;
+    width: 1270px;
+    height: 560px;
+}
+#ttl{
+background-color: rgb(165, 177, 177);
+width: 150px;
+height: 50px;
+padding: 10px;
+font-weight: bold;
+text-align: center;
+font-size: 30px;
+border-radius: 15px;
+color: rgb(49, 48, 48);
+box-shadow: 5px 5px 5px ;
+}
+#nav{
+    background-color: rgb(165, 177, 177);
+    width: 1050px;
+    height: 41px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 15px;
+    position: relative;
+    left: 180px;
+    top: -75px;
+    box-shadow: 5px 5px 5px ;
+}
+#nav a{
+    text-decoration: none;
+    color: rgb(57, 68, 78);
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#nav a:hover{
+    color: aliceblue;
+    transition: 1s;
+}
+#srch{
+ border-top: none;
+ height: 30px;
+ border-left: none;
+ border-right: none;
+ border-bottom: 5px rgb(116, 108, 114) solid;
+ background-color: rgba(255, 255, 255, 0);
+ margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+#btn{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+}
+#btn:hover{
+    box-shadow: 0 8px 35px rgba(187, 31, 31, 0.5);
+}
+#box1{
+    height: 450px;
+    width: 400px;
+    background-color: rgb(108, 104, 100); 
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px;
+}
+#box1:hover{
+    background-color: aliceblue;
+    box-shadow: 0 8px 35px rgba(187, 31, 31, 0.5);
+    transition: 1s;
+}
+p{
+    font-weight: bold;
+}
+#gr {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+#box2{
+  
+  background-color: rgb(108, 104, 104);
+  width: 400px;
+  height: 450px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px;
+}
+#ima{
+    width:382px ;
+}
+#box2:hover{
+    background-color: aliceblue;
+     box-shadow: 0 8px 35px rgba(187, 31, 31, 0.5);
+    transition: 1s;
+}
+#box2 ul{
+    font-weight: bold;
+    font-size: 30px;
+}
+#box3{
+    width: 400px;
+  height: 467px;
+  overflow-y: scroll;
+  border-radius: 10px;
+    background-color: rgb(107, 103, 103);
+    box-shadow: 5px 5px 5px;
+
+}
+
+#box3:hover{
+    background-color: aliceblue;
+     box-shadow: 0 8px 35px rgba(187, 31, 31, 0.5);
+    transition: 1s;
+}
+#aba{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#btn1{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+    color: transparent;
+}
+#btn1:hover{
+    box-shadow: 0 8px 35px rgba(187, 31, 31, 0.5);
+}
+#myclock{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: fixed ;
+ 
+}
+#acc{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(211, 209, 206);
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  left: 500px;
+  top: 40px;
+
+}
+#acc:hover{
+    background-color: rgb(255, 255, 255);
+      box-shadow: 0 8px 35px rgba(187, 31, 31, 0.5);
+    transition: 1s;
+    
+}
+header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 20px;
+ position: relative;
+    top: 10px;
+}
+#s{
+    border-bottom: solid black;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+}
+#back{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    position: relative;
+    top: 10px;
+
+}
+#back:hover{
+    font-size: 25px;
+    color: darkgrey;
+    transition: 0.1s;
+}
+#ext{
+    background:linear-gradient(rgb(94, 198, 120),rgb(14, 136, 14));
+    height: 60px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+#ext1{
+            background:linear-gradient(rgb(94, 198, 120),rgb(14, 136, 14));
+    height: 60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px ;
+}
+h2{
+    color: white;
+    position: absolute;
+    top: 600px; 
+    left: 550px;
+    font-size: 15px;
+
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
